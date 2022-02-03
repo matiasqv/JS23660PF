@@ -77,12 +77,12 @@
 		"marca": "Queso Parmesano",
 		"imagen": "img/parmesan.jpg",
 		"precio": "685",
-		"detalles": ["Premiun", "500 gr", "440 % de materia grasa"]
+		"detalles": ["Premiun", "500 gr", "40 % de materia grasa"]
 	} ,
 	{
 		"id": 11,
 		"producto": "Lacteos",
-		"marca": "Quso Mar del Plata",
+		"marca": "Queso Mar del Plata",
 		"imagen": "img/queso.jpg",
 		"precio": "895",
 		"detalles": ["Premiun", "900 gr", "35 % de materia grasa"]

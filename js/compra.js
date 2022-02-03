@@ -37,7 +37,7 @@ function procesarCompra() {
     }
     else {
         location.href = "index.html";
-        window.alert("Tu pedido fue enviado \nEn breve recibirás un email con la fecha de entrega y la factura \nGracias por su compra" );
+        window.alert("Tu pedido fue enviado \nEn breve recibirás un email con la fecha de entrega y la factura \nGracias por su compra");
         localStorage.clear();
     }
 }

@@ -59,11 +59,11 @@ async function fetchProductos() {
 			</div>
 		`
 
-		if(index === 0){
+		if (index === 0) {
 			html += `<div class="card-deck mb-3 text-center md:w-10">${articulo}`
-		}else if(index % 3 === 0 && index !== 0){
+		} else if (index % 3 === 0 && index !== 0) {
 			html += `</div><div class="card-deck mb-3 text-center md:w-10">${articulo}`
-		}else{
+		} else {
 			html += articulo
 		}
 	});

@@ -92,6 +92,8 @@ class Carrito {
         let productoLS;
         if (localStorage.getItem('productos') === null) {
             productoLS = [];
+            console.log(productoLS)
+            console.log(localStorage)
         }
         else {
             productoLS = JSON.parse(localStorage.getItem('productos'));
@@ -159,7 +161,6 @@ class Carrito {
     vaciarLocalStorage() {
         localStorage.clear();
     }
-
     //Procesar pedido
     procesarPedido(e) {
         e.preventDefault();
