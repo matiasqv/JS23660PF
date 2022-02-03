@@ -1,0 +1,13 @@
+
+$color1: rgb(250, 219, 219); 
+$color2: rgb(255, 255, 255);  
+$color3: rgb(46, 119, 255);   
+
+@import "_html";
+@import "_header";
+@import "_nav";
+@import "_footer";
+
+#cargando {
+    display: none;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Carrito Compras en JavaScript</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- // Tabla Carrito -->
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="#">SuperBsAr</a>
+                    <div class="collapse navbar-collapse " id="navbarCollapse">
+                        <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px" width="70px"
+                            href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"></img>
+                        <div id="carrito" class="dropdown-menu" style="overflow: scroll" aria-labelledby="navbarCollapse">
+                            <table id="lista-carrito" class="" >        
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio $</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody ></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                            <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar Compra</a>
+                        </div>
+                    </div>
+                    <div class="main-nav container container--flex ">
+                        <span class="icon-menu" id="btn-menu">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        <ul class="menu" id="menu">
+                            <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">HOME</a></li>
+                            <li class="menu__item"><a href="compra.html" class="menu__link">COMPRA</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Lista de Productos</h1>
+            <p class="lead">Selecciona uno de nuestros productos</p>
+        </div>
+
+        <!-- Carga el DOM aqui -->
+        <div class="container" id="lista-productos">
+            
+        </div>
+    </main>
+
+    <footer class="main-footer" id="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33 ">
+                <h3 class="column__title">INFORMACION DE CONTACTO</h3>
+                <p class="column__txt">Somo una empresa lider en el mercado, con los mas altos estandar de calidad y servicio.</p>
+                <p class="column__txt">Phone : +54-11-4585-4585</p>
+                <p class="column__txt">Direccion: Av. Jaun 2354 CABA</p>
+                <p class="column__txt" class="far fa-envelope">SuperBsAr@mail.com</p>
+            </div>
+            <div class="copy">
+                <p>
+                    SuperBsAr.ar | © 2021 CREATED BY SuperBsAr
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+    <script src="js/menu.js"></script>
+
+
+</body>
+
+</html>
